@@ -8,13 +8,13 @@ function randomArray(arr) {
   // random function that takes in max # arg
   // makea  copy of the array so we don't modify it
     let newArr = [],
-        rand = (max) => Math.floor(Math.random() * max),
+        rand = () => Math.floor(Math.random() * copy.length),
         copy = [].concat(arr);
 
 // while our shuffled array is shorter than the original, keep shuffling
 // we just splice out one number at a time until the lengths match
     while (newArr.length < arr.length) {
-        newArr.push(copy.splice(rand(copy.length), 1)[0]);
+        newArr.push(copy.splice(rand(), 1)[0]);
     }
     return newArr;
 }
