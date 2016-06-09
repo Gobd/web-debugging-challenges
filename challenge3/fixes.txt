@@ -1,0 +1,9 @@
+app.js for all routes Template.html should be Tmpl.html
+
+app.js change productid to id to match $stateParams in controller
+
+productsCtrl.js sheoData should be shoeData
+
+productService.js change 'var =' to 'this.'
+
+index.html change ui-sref product to products to match state name
