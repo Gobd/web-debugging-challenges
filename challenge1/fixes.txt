@@ -1,0 +1,8 @@
+app.js line 1 ui-router should be ui.router
+app.js line 16 extra }) moved to bottom of file
+app.js .state('products') should be .state('products',
+app.js settingsctrl should be settingsCtrl
+
+productsCtrl missing } before final )
+
+index.html ui-router script tag missing closing >
